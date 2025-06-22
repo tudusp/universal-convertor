@@ -11,7 +11,13 @@ import openpyxl
 import pypandoc
 import time
 import tabula
-
+# Page configuration
+st.set_page_config(
+    page_title="Universal Convertor",
+    page_icon="->",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 # Helper functions for conversions
 def pdf_to_word(pdf_bytes):
     with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as pdf_file:
