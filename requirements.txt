@@ -1,0 +1,11 @@
+streamlit
+pypandoc
+python-docx
+pandas
+openpyxl
+pdf2docx
+python-pptx
+Pillow
+PyPDF2
+tabula-py 
+
